@@ -3,8 +3,7 @@ import { Menu, Phone, X, User, LogOut } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useNavigate } from 'react-router';
 import { useAuth } from '../contexts/AuthContext';
-import logoImage from 'figma:asset/bc5f3d72095ff495d66f7beeae6ceec35d5b87b0.png';
-
+import something from "@/assets/bc5f3d72095ff495d66f7beeae6ceec35d5b87b0.png"
 interface NavigationProps {
   onReserveClick: () => void;
 }
