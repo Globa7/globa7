@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, Calendar, Sparkles, Eye } from 'lucide-react';
 import { ServiceDetailsModal } from './ServiceDetailsModal';
 import { projectId, publicAnonKey } from '../../../utils/supabase/info';
-import airportImage from 'figma:asset/f38ca17fd01859fc3cfec1fcbce82de7fb78a313.png';
-import cityTourImage from 'figma:asset/9a4405f60d7cf0231bdfefcf08f2f0badb3f18e9.png';
-import groupTransportImage from 'figma:asset/8ce1e3644ba54433015ef0b1f7c575cdaff71711.png';
-import festivalImage from 'figma:asset/985fc17e16a1ca564e11689af4f54ce690c8fea4.png';
-import weddingImage from 'figma:asset/375c8aac26de62c7679e0626c77f100ca0b054f9.png';
-import corporateImage from 'figma:asset/82ec626c1fe8a1686a100853305bc8254c4c3922.png';
+import airportImage from '@/assets/f38ca17fd01859fc3cfec1fcbce82de7fb78a313.png';
+import cityTourImage from '@/assets/9a4405f60d7cf0231bdfefcf08f2f0badb3f18e9.png';
+import groupTransportImage from '@/assets/8ce1e3644ba54433015ef0b1f7c575cdaff71711.png';
+import festivalImage from '@/assets/985fc17e16a1ca564e11689af4f54ce690c8fea4.png';
+import weddingImage from '@/assets/375c8aac26de62c7679e0626c77f100ca0b054f9.png';
+import corporateImage from '@/assets/82ec626c1fe8a1686a100853305bc8254c4c3922.png';
 
 const API_BASE = `https://${projectId}.supabase.co/functions/v1/make-server-12e765ba`;
 
