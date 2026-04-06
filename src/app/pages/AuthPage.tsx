@@ -7,7 +7,7 @@ import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/label";
 import { Button } from "../components/ui/button";
 import { toast } from "sonner";
-import logoImage from "@/assets/bc5f3d72095ff495d66f7beeae6ceec35d5b87b0.png";
+import logoImage from "../../assets/logoImage.png";
 
 export function AuthPage() {
   const [isSignUp, setIsSignUp] = useState(false);
