@@ -1,6 +1,7 @@
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 import { Instagram, Facebook } from 'lucide-react';
-import logoImage from '../../../assets/logoImage.png';
+import logoImage from '../../assets/logoImage.png';
+
 export function Footer() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);

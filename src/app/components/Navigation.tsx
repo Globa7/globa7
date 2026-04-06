@@ -3,7 +3,7 @@ import { Menu, Phone, X, User, LogOut } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useNavigate } from 'react-router';
 import { useAuth } from '../contexts/AuthContext';
-import logoImage from '../../../assets/logoImage.png';
+import logoImage from '../../assets/logoImage.png';
 
 interface NavigationProps {
   onReserveClick: () => void;
